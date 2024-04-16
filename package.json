@@ -16,6 +16,8 @@
   "files": [
     "build",
     "lib",
-    "grammar.peggy"
+    "grammar.peggy",
+    "index.d.ts",
+    "index.js"
   ]
 }
