@@ -45,7 +45,7 @@ boolean
 	= value:("true" / "false") _ {return {type: "bool", value}}
 
 variable
-	= first:[a-zA-Z] rest:[a-zA-Z0-9_]* _ {
+	= first:[a-zA-Z] rest:[a-zA-Z0-9_.]* _ {
 		return {type: "var", value: [first, ...rest].join("")}
 	}
 

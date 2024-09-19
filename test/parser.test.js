@@ -23,6 +23,7 @@ const inputs = [
   'name == "james"',
   "isLeaf || isOpen || isClosed",
   "isClosed",
+  "session.hasQuery"
 ];
 
 for (const input of inputs) {

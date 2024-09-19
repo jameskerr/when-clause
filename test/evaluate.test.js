@@ -6,6 +6,7 @@ const variables = {
   isLeaf: true,
   isRoot: false,
   count: 10,
+  "session.hasQuery": true,
 };
 
 const inputs = [
@@ -21,6 +22,7 @@ const inputs = [
   { script: "isLeaf", result: true },
   { script: "isRoot", result: false },
   { script: "isRoot || count > 0", result: true },
+  { script: "session.hasQuery", result: true}
 ];
 
 for (const input of inputs) {
