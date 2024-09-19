@@ -1,6 +1,6 @@
 {
   "name": "when-clause",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "packageManager": "yarn@4.0.2",
   "type": "module",
   "devDependencies": {
